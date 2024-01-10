@@ -11,9 +11,9 @@ export default function Banner() {
     <div className='d-flex flex-column justify-content-center banner gap-3'>
         <h1 className=' title fw-bold custom-left-margin'>Tom Kastoryano</h1>
         <div className="row">
-        <div className="col-6">
+        <div className="col-sm-12 col-md-10 col-lg-5">
             <h3 class="custom-left-margin">
-                I'm a recent college graduate that loves frontend development and is looking to expand his horizons
+                I'm a frontend developer that want to make the internet more pretty and accessible
             </h3>
         </div>
 
