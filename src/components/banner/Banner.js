@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 
+
 export default function Banner() {
   return (
     <div className='d-flex flex-column justify-content-center banner gap-3'>
@@ -15,6 +16,8 @@ export default function Banner() {
                 I'm a recent college graduate that loves frontend development and is looking to expand his horizons
             </h3>
         </div>
+
+
     </div>
     </div>
   )
