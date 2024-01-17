@@ -1,0 +1,14 @@
+.card-container{
+    background-color: #f4f1f1;
+    padding: 20px 30px;
+    
+}
+.image-size{
+    max-width: 300px;
+    margin-left: 25px;
+}
+@media (max-width: 768px) {
+    .image-size {
+        margin-left: 0px;
+    }
+  }

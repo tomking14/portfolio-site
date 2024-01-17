@@ -1,5 +1,11 @@
-.container:not(){
+
+.container{
     margin: 0 auto;
     max-width: 60rem;
 }
+@media (min-width: 992px) {
+    *, :after, :before {
+        box-sizing: inherit;
+    }
+  }
 
