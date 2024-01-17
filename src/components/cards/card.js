@@ -4,15 +4,12 @@ import './cards.css';
 
 export default function Card(props) {
   return (
-    <div>
-    <div className='d-flex flex-column flex-md-row card-container mb-5'>
+    <div {...props} className='d-flex flex-column flex-md-row card-container mb-5'>
         <div>
             <h2 className="mb-4">{props.title}</h2>
             <p>{props.description}</p>
         </div>
         <img src={props.image} alt="Black hole" className='image-size'/>
-    </div>
-    
     </div>
     
   )
