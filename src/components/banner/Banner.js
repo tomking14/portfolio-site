@@ -8,6 +8,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons'
+import profilepic from '../../images/Profile.png'
 
 
 
@@ -15,13 +16,13 @@ import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons'
 
 export default function Banner() {
   return (
+    <div>
     <div className='d-flex flex-column justify-content-center banner gap-4'>
         <h1 className='title fw-bold mb-0'>Tom Kastoryano</h1>
         <div className="row">
         <div className="col-10 col-sm-9">
             <h3 class="mb-4">
-                I'm a frontend developer that want to make the internet more pretty and accessible
-                
+                I'm a frontend developer that want to make the internet more pretty and accessible 
             </h3>
         </div>
         <div className='d-flex gap-4 justify-content-center justify-content-md-start'>
@@ -41,5 +42,6 @@ export default function Banner() {
         </div>
       </div>
     </div>
+  </div>
   )
 }
