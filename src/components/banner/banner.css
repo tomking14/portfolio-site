@@ -1,9 +1,5 @@
 .banner {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e,#3C79F5, #645CBB,#6C00FF);
-    background-size: 400% 400%;
-    height:750px; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    animation: gradient 12s ease infinite;
+    height: 100vh;
   }
   
   @keyframes gradient {
@@ -17,11 +13,8 @@
         background-position: 0% 50%;
     }
   }
-  .custom-left-margin {
-    margin-left: 120px; 
-  }
   .title{
     font-family: 'Selawik', sans-serif;
-    color: #FED049;
+    color: #7fa99b;
     font-size: 90px;
 }
