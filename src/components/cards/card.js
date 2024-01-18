@@ -9,7 +9,7 @@ export default function Card(props) {
             <h2 className="mb-4">{props.title}</h2>
             <p>{props.description}</p>
         </div>
-        <img src={props.image} alt="Black hole" className='image-size'/>
+        <img src={props.image} alt= {props.imageAlt} className='image-size'/>
     </div>
     
   )
