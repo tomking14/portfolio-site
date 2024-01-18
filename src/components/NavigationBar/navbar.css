@@ -1,7 +1,8 @@
 .navbar-styling{
     position: sticky;
-    top: 0; /* This sets the navbar to stick to the top of the viewport */
+    top: 0;
     z-index: 1000;
+    
 }
 .resume-button{
     border: 1px solid black;
@@ -12,8 +13,9 @@
 .navbar-link{
     color: inherit; 
     text-decoration: none; 
-    transition: color 0.3s ease;
+    transition: color 0.4s ease;
 }  
-  .navbar-link:hover {
-    color: #3baea0; /* Color change on hover */
+  .navbar-link:hover, .navbar-link:focus {
+    color: #118a7e;
+    outline: none;
   }
