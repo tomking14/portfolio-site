@@ -24,7 +24,7 @@ function App() {
     useEffect(() => {
         const handleScroll = () => {
         const offset = window.scrollY;
-        setHasScrolled(offset > 300); // Set threshold to 50px
+        setHasScrolled(offset > 300); 
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -41,9 +41,9 @@ function App() {
     });
   },[])
 
-  const scrollToRef = (ref, offset = 80) => { // Default offset of 10 pixels
+  const scrollToRef = (ref, offset = 80) => { 
     if(ref && ref.current) {
-      const position = ref.current.offsetTop - offset; // Subtract the offset
+      const position = ref.current.offsetTop - offset; 
       window.scrollTo({ top: position, behavior: 'smooth' });
     }
   };
@@ -57,7 +57,7 @@ function App() {
       </div>
     <div className='container'>
       
-      <Banner/>
+      <Banner />
       <h1 ref={projectsRef} className='mb-5 highlight fw-bold regular-text'>Projects</h1>
       <Card data-aos="fade-up" imageAlt={"black hole"} title={"Internship"} image={blackhole} description={"Helped build a design system consisting of accessible, adaptable, user-friendly UI components and full pages for Cricket developers to use throughout the Cricket website using HTML, CSS, Bootstrap, and JavaScript"}/>
       <Card data-aos="fade-up" imageAlt={"horizon"} title={"Film Site"} image={bottomimage} description={"Worked within a Scrum to build a full stack application mimicking a cinema site to order movie tickets using React and Flask with a focus on the frontend side "}/>
