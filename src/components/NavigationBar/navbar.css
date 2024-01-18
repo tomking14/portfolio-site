@@ -7,6 +7,12 @@
     color: inherit; 
     text-decoration: none; 
 }
+.resume-button {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0px 10px;
+    transition: border-color 0.4s ease, color 0.4s ease; 
+}
 
 .navbar-link:hover, 
 .navbar-link:focus {
@@ -24,9 +30,21 @@
     color: #118a7e;
 }
 
-.resume-button {
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 0px 10px;
-    transition: border-color 0.4s ease, color 0.4s ease; 
+
+.navbar-scrolled .navbar-link:hover, 
+.navbar-scrolled .navbar-link:focus {
+    color: white;
+    outline: none;
+}
+
+.navbar-scrolled .navbar-link-resume:hover, 
+.navbar-scrolled .navbar-link-resume:focus {
+    color: white;
+    outline: none;
+}
+
+.navbar-scrolled .navbar-link-resume:hover .resume-button, 
+.navbar-scrolled .navbar-link-resume:focus .resume-button {
+    border-color: white; 
+    color: white;
 }

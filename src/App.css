@@ -7,14 +7,12 @@
   padding: 5px 0px;
   width: 100%;
   background-color: white;
-}
-.navbar-styling{
   position: sticky;
   top: 0;
   z-index: 1000;
   transition: background-color 0.2s ease-in-out;
-  
 }
+
 .navbar-scrolled {
   background-color: #118a7e; 
 }

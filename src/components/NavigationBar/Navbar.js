@@ -4,7 +4,7 @@ export default function Navbar({ scrollToRef, refs }) {
 
   return (
     <div className={`d-flex justify-content-between navbar-styling`}>
-        <a href="#projects" className='navbar-link'>
+        <a href="#banner" onClick={() => scrollToRef(refs.bannerRef)} className='navbar-link'>
              <h3 className='mt-3 regular-text'>TK</h3>
         </a>
         <div className=' mt-3 d-flex justify-content-end gap-3 gap-lg-5'>

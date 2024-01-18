@@ -1,12 +1,13 @@
 .card-container{
     background-color: #f4f1f1;
-    padding: 20px 30px;
+    padding: 0px 0px 0px 30px;
     border-radius: 10px;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .image-size{
     max-width: 300px;
     margin-left: 25px;
+    border-radius: 0px 10px 10px 0px;
 }
 @media (max-width: 768px) {
     .image-size {
