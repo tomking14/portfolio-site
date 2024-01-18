@@ -6,8 +6,8 @@ export default function Card(props) {
   return (
     <div {...props} className='d-flex flex-column flex-md-row card-container mb-5'>
         <div>
-            <h2 className="mb-4">{props.title}</h2>
-            <p>{props.description}</p>
+            <h2 className="mb-4 medium-text">{props.title}</h2>
+            <p className='light-text'>{props.description}</p>
         </div>
         <img src={props.image} alt= {props.imageAlt} className='image-size'/>
     </div>

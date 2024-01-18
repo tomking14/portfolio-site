@@ -1,0 +1,19 @@
+.navbar-styling{
+    position: sticky;
+    top: 0; /* This sets the navbar to stick to the top of the viewport */
+    z-index: 1000;
+}
+.resume-button{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0px 10px;
+    
+}
+.navbar-link{
+    color: inherit; 
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}  
+  .navbar-link:hover {
+    color: #3baea0; /* Color change on hover */
+  }

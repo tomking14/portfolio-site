@@ -11,4 +11,38 @@
   .highlight{
     color: #118a7e;
   }
-
+  @font-face {
+    font-family: 'Red Hat Display';
+    src: url('/public/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Red Hat Display';
+    src: url('/public/Red_Hat_Display/RedHatDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+    font-style: italic;
+  }
+  .light-text {
+    font-family: 'Red Hat Display', sans-serif; /* Fallback font */
+    font-weight: 300;
+  }
+  .regular-text {
+    font-family: 'Red Hat Display', sans-serif; /* Fallback font */
+    font-weight: 400;
+  }
+  .medium-text{
+      font-family: 'Red Hat Display', sans-serif; /* Fallback font */
+      font-weight: 600;
+  }
+  .light-text-italic {
+    font-family: 'Red Hat Display', sans-serif; /* Fallback font */
+    font-weight: 300;
+    font-style: italic;
+  }
+  .regular-text-italic {
+    font-family: 'Red Hat Display', sans-serif; /* Fallback font */
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  
