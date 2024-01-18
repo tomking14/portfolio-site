@@ -1,21 +1,32 @@
-.navbar-styling{
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    
-}
-.resume-button{
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 0px 10px;
-    
-}
-.navbar-link{
+.navbar-link {
     color: inherit; 
     text-decoration: none; 
     transition: color 0.4s ease;
-}  
-  .navbar-link:hover, .navbar-link:focus {
+}
+.navbar-link-resume{
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.navbar-link:hover, 
+.navbar-link:focus {
     color: #118a7e;
     outline: none;
-  }
+}
+.navbar-link-resume:focus, 
+.navbar-link-resume:hover {
+    outline: none; 
+}
+
+.navbar-link-resume:hover .resume-button, 
+.navbar-link-resume:focus .resume-button {
+    border-color: #118a7e; 
+    color: #118a7e;
+}
+
+.resume-button {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0px 10px;
+    transition: border-color 0.4s ease, color 0.4s ease; 
+}

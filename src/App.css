@@ -3,6 +3,21 @@
     margin: 0 auto;
     max-width: 60rem;
 }
+.navbar-class {
+  padding: 5px 0px;
+  width: 100%;
+  background-color: white;
+}
+.navbar-styling{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.2s ease-in-out;
+  
+}
+.navbar-scrolled {
+  background-color: #118a7e; 
+}
 @media (min-width: 992px) {
     *, :after, :before {
         box-sizing: inherit;
@@ -11,6 +26,13 @@
   .highlight{
     color: #118a7e;
   }
+
+
+
+
+
+
+
   @font-face {
     font-family: 'Red Hat Display';
     src: url('/public/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf') format('truetype');
