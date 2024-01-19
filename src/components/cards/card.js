@@ -4,7 +4,7 @@ import './cards.css';
 
 export default function Card(props) {
   return (
-    <div {...props} className='d-flex flex-column flex-md-row card-container mb-5'>
+    <div className='d-flex flex-column flex-md-row card-container mb-5'>
         <div>
             <h2 className="mt-4 mb-2 medium-text">{props.title}</h2>
             <p className='light-text'>{props.description}</p>

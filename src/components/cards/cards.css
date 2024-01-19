@@ -3,15 +3,13 @@
     padding: 0px 0px 0px 30px;
     border-radius: 42px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    will-change: transform, box-shadow;
     overflow: hidden;
-    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-container:hover {
-    transform: translateY(-10px);
-    /* box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35); */
+    box-shadow: 0 0 0 5px #3baea0;
+    transform: translateY(-10px); 
 }
 .image-size{
     max-width: 300px;
