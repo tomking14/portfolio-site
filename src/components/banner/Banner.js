@@ -18,11 +18,11 @@ export default function Banner() {
   return (
     <div>
     <div className='d-flex flex-column justify-content-center banner gap-4'>
-        <h1 className='title fw-bold mb-0 medium-text'>Tom Kastoryano</h1>
+        <h1 className='title mb-0 large-text'>Tom Kastoryano</h1>
         <div className="row">
         <div className="col-10 col-sm-9">
             <h3 class="mb-4 regular-text">
-                I'm a frontend developer that wants to make the internet more 
+                A frontend developer that wants to make the internet more 
                  <strong class="highlight light-text-italic"> pretty</strong> and 
                  <strong class="highlight light-text-italic"> accessible</strong>
             </h3>

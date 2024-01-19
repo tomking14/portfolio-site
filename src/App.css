@@ -12,7 +12,9 @@
   z-index: 1000;
   transition: background-color 0.2s ease-in-out;
 }
-
+.highlight{
+  color: #118a7e;
+}
 .navbar-scrolled {
   background-color: #118a7e; 
 }
@@ -21,9 +23,44 @@
         box-sizing: inherit;
     }
   }
-  .highlight{
-    color: #118a7e;
-  }
+  @keyframes growWidth {
+    from {
+        width: 0;
+    }
+    to {
+        width: 105%;
+    }
+}
+
+
+.medium-text-titles .line[data-aos='custom-animation'].aos-animate {
+    visibility: visible;
+    animation: growWidth 0.7s ease forwards;
+}
+
+.medium-text-titles .line {
+  display: block;
+  width: 105%; /* Line width */
+  height: 4px; /* Line thickness */
+  background-color: #118a7e; /* Line color */
+  position: absolute;
+  bottom: -10px; /* Adjust as needed */
+  left: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+
+.icon-container {
+    position: absolute;
+    bottom: -32px; /* Adjust position as needed */
+    left: 105%; 
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+.icon-container.aos-animate {
+  opacity: 1; /* Make the icon visible when AOS triggers the animation */
+}
 
 
 
@@ -50,9 +87,31 @@
     font-family: 'Red Hat Display', sans-serif; /* Fallback font */
     font-weight: 400;
   }
-  .medium-text{
+  .regular-text-body{
+    font-family: 'Red Hat Display', sans-serif; /* Fallback font */
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .large-text{
       font-family: 'Red Hat Display', sans-serif; /* Fallback font */
-      font-weight: 600;
+      font-weight: 800;
+  }
+  .medium-text-italic{
+    font-family: 'Red Hat Display', sans-serif; /* Fallback font */
+    font-weight: 600;
+    font-style: italic;
+}
+.medium-text{
+  font-family: 'Red Hat Display', sans-serif; /* Fallback font */
+  font-weight: 600;
+}
+  .medium-text-titles{
+    font-family: 'Red Hat Display', sans-serif; /* Fallback font */
+    font-weight: 800;
+    font-size: 38px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 65px;
   }
   .light-text-italic {
     font-family: 'Red Hat Display', sans-serif; /* Fallback font */

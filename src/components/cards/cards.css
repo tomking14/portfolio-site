@@ -9,7 +9,7 @@
 
 .card-container:hover,.card-container:focus {
     box-shadow: 0 0 0 8px #3baea0;
-    transform: translateY(-8px); 
+    transform: translateY(-5px); 
     outline: none;
 }
 .image-size{
@@ -20,5 +20,13 @@
 @media (max-width: 768px) {
     .image-size {
         margin-left: 0px;
+        border-radius: 0px 0px 0px 32px;
+    }
+    .card-container {
+        padding:0;
+   
+    }
+    .card-description{
+        margin-left: 15px;
     }
   }
