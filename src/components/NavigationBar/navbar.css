@@ -1,7 +1,7 @@
 .navbar-link {
     color: inherit; 
     text-decoration: none; 
-    transition: color 0.4s ease;
+    transition: color 0.3s ease;
 }
 .navbar-link-resume{
     color: inherit; 
@@ -11,7 +11,7 @@
     border: 1px solid black;
     border-radius: 30px;
     padding: 0px 10px;
-    transition: border-color 0.4s ease, color 0.4s ease; 
+    transition: border-color 0.3s ease, color 0.3s ease; 
 }
 
 .navbar-link:hover, 
