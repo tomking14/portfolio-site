@@ -1,15 +1,16 @@
 .card-container {
     background-color: #f4f1f1;
     padding: 0px 0px 0px 30px;
-    border-radius: 42px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 32px;
+    box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.11);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card-container:hover {
-    box-shadow: 0 0 0 5px #3baea0;
-    transform: translateY(-10px); 
+.card-container:hover,.card-container:focus {
+    box-shadow: 0 0 0 8px #3baea0;
+    transform: translateY(-8px); 
+    outline: none;
 }
 .image-size{
     max-width: 300px;
