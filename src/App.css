@@ -41,7 +41,7 @@
 .medium-text-titles .line {
   display: block;
   width: 105%; /* Line width */
-  height: 4px; /* Line thickness */
+  height: 2px; /* Line thickness */
   background-color: #118a7e; /* Line color */
   position: absolute;
   bottom: -10px; /* Adjust as needed */
@@ -87,15 +87,6 @@
     font-family: 'Red Hat Display', sans-serif; /* Fallback font */
     font-weight: 400;
   }
-  .regular-text-body{
-    font-family: 'Red Hat Display', sans-serif; /* Fallback font */
-    font-weight: 400;
-    font-size: 24px;
-  }
-  .large-text{
-      font-family: 'Red Hat Display', sans-serif; /* Fallback font */
-      font-weight: 800;
-  }
   .medium-text-italic{
     font-family: 'Red Hat Display', sans-serif; /* Fallback font */
     font-weight: 600;
@@ -105,13 +96,25 @@
   font-family: 'Red Hat Display', sans-serif; /* Fallback font */
   font-weight: 600;
 }
+  .regular-text-body{
+    font-family: 'Red Hat Display', sans-serif; /* Fallback font */
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .large-text{
+      font-family: 'Red Hat Display', sans-serif; /* Fallback font */
+      font-weight: 800;
+  }
+ 
   .medium-text-titles{
     font-family: 'Red Hat Display', sans-serif; /* Fallback font */
-    font-weight: 800;
+    font-weight: 300;
     font-size: 38px;
     position: relative;
     display: inline-block;
     margin-bottom: 65px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+
   }
   .light-text-italic {
     font-family: 'Red Hat Display', sans-serif; /* Fallback font */
