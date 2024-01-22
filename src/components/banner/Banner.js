@@ -53,7 +53,7 @@ export default function Banner() {
         </div>
 
         <div data-aos="fade-up" data-aos-delay="900">
-            <a href="https://www.instagram.com/tomykastor/" target="_blank" rel="noopener noreferrer" className='custom-link'>
+            <a href="https://www.instagram.com/tomykastor/" target="_blank" rel="noopener noreferrer" className='custom-link text-decoration-none'>
                 <FontAwesomeIcon icon={faSquareInstagram} size="3x"/>
             </a>
           </div>

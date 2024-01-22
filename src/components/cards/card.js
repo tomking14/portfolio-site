@@ -8,7 +8,7 @@ export default function Card(props) {
     <div className='d-flex flex-column flex-md-row '>
         <div className='card-description'>
             <h2 className="mt-3 mb-2 medium-text">{props.title}</h2>
-            <p className='light-text'>{props.description}</p>
+            <p className='light-text'><a href={props.cardLink} target="_blank" rel="noopener noreferrer" className='card-container-action text-black text-decoration-none'>{props.description}</a></p>
             {props.techArray && props.techArray.length > 0 && (
             <div className='d-flex gap-3'>
               {props.techArray.map((item, index) => (
