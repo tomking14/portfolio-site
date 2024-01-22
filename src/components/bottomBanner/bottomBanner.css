@@ -1,7 +1,7 @@
 .bottomBanner-style {
     width: 100%;
     background-color: #118a7e; /* Change as per your color scheme */
-    color: white;
+    color: #303841;
     padding: 30px 0;
     
 }
@@ -25,6 +25,6 @@
   
   .custom-link-bottomB:hover, .custom-link-bottomB:focus {
     outline: none;
-    color: #3a4750;
+    color: white;
     text-decoration: none;
   }

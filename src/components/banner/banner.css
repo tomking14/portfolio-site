@@ -17,7 +17,7 @@
   }
 }
 .custom-link {
-  color: inherit; 
+  color: #303841; 
   transition: transform 0.3s ease, opacity 0.3s ease;
   display: inline-block;
 }
@@ -33,7 +33,7 @@
   width: 8px; 
   height: 1em;
   border-radius: 4px; 
-  background-color: black; 
+  background-color: #303841; 
   margin-left: 10px;
   vertical-align: middle; 
   animation: blink 1s step-start infinite;
