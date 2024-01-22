@@ -1,0 +1,19 @@
+.bottomBanner-style {
+    width: 100%;
+    background-color: #118a7e; /* Change as per your color scheme */
+    color: white;
+    padding: 30px 0;
+    
+}
+@media (max-width: 992px) {
+    .bottomBanner-style{
+        padding: 30px 10px;
+    }
+  }
+.banner-alignment{
+    margin: 0 auto;
+    max-width: 60rem;
+}
+.icon-style {
+    margin-right: 5px;
+}

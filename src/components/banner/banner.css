@@ -30,7 +30,7 @@
 }
 .cursor {
   display: inline-block;
-  width: 10px; 
+  width: 8px; 
   height: 1em;
   border-radius: 4px; 
   background-color: black; 
@@ -41,3 +41,5 @@
 @keyframes blink {
   50% { opacity: 0; }
 }
+
+
