@@ -16,6 +16,10 @@
     bottom: 0; 
     z-index: 1; 
 }
+.card-container-action:hover, .card-container-action:focus{
+    text-decoration: none;
+    outline: none;
+}
 
 .card-container:hover,.card-container:focus {
     box-shadow: 0 0 0 8px #3baea0;

@@ -17,3 +17,14 @@
 .icon-style {
     margin-right: 5px;
 }
+.custom-link-bottomB {
+    color: inherit; 
+    transition: color 0.3s ease;
+    display: inline-block;
+  }
+  
+  .custom-link-bottomB:hover, .custom-link-bottomB:focus {
+    outline: none;
+    color: #3a4750;
+    text-decoration: none;
+  }
