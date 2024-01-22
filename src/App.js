@@ -24,6 +24,10 @@ function App() {
   const aboutMeRef = useRef(null);
   const [hasScrolled, setHasScrolled] = useState(false);
 
+  const intershipArr = ["JavaScript", "CSS" ,"Bootstrap", "HTML", "A11Y"]
+  const filmArr = ["React","Flask","MongoDB","Axios"]
+  const rideShareArr = ["Java","Google Firebase", "Android Studio"]
+
     useEffect(() => {
         const handleScroll = () => {
         const offset = window.scrollY;
@@ -63,19 +67,19 @@ function App() {
         <Banner />
       </div>
       <h2 data-aos="fade-right" ref={projectsRef} className='highlight medium-text-titles'>
-        Projects
+        Projects and Awards
         <span className="line" data-aos="custom-animation"></span>
         <span className="icon-container" data-aos="slide-right"><FontAwesomeIcon icon={faShuttleSpace} /></span>
     </h2>
     
       <div data-aos="fade-up">
-          <Card imageAlt={"black hole"} title={"Internship"} image={blackhole} description={"Helped Cricket developers build a design system consisting of accessible, reusable, adaptable, and user-friendly UI components, as well as full pages to use throughout the Cricket website. This was achieved using HTML, CSS, Bootstrap, JavaScript, and following A11Y accessibillity guidelines."}/>
+          <Card imageAlt={"black hole"} title={"Internship"} image={blackhole} techArray ={intershipArr} description={"Helped Cricket developers build a design system consisting of accessible, reusable, adaptable, and user-friendly UI components, as well as full pages to use throughout the Cricket website. This was achieved using HTML, CSS, Bootstrap, JavaScript, and following A11Y accessibillity guidelines."}/>
       </div>
       <div data-aos="fade-up">
-          <Card data-aos="fade-up" imageAlt={"horizon"} title={"Film Site"} image={bottomimage} description={"Within a Scrum team, I contributed to building a full-stack application that mimics a cinema site for ordering movie tickets. This project utilized React, Flask, and MongoDB. I developed a multi-page site featuring complete user account management (creation, editing, and admin functionalities), ticket purchase and checkout processes, and an engaging, intuitive UI/UX."}/>
+          <Card  imageAlt={"horizon"} title={"Film Site"} techArray ={filmArr} image={bottomimage} description={"Within a Scrum team, I contributed to building a full-stack application that mimics a cinema site for ordering movie tickets. This project utilized React, Flask, and MongoDB. I developed a multi-page site featuring complete user account management (creation, editing, and admin functionalities), ticket purchase and checkout processes, and an engaging, intuitive UI/UX."}/>
       </div>
       <div data-aos="fade-up">
-          <Card data-aos="fade-up" imageAlt={"space"} title={"Ride Share Application"} image={header} description={"Partnered in an Agile-driven project to create an Android app that allows users to create, edit, and manage ride requests and offers. We leveraged Android Studio and Google Firebase for efficient real-time data handling, and built a user friendly UI that helped users easily engange with the app."}/>
+          <Card imageAlt={"space"} title={"Ride Share Application"} techArray ={rideShareArr} image={header} description={"Partnered in an Agile-driven project to create an Android app that allows users to create, edit, and manage ride requests and offers. We leveraged Android Studio and Google Firebase for efficient real-time data handling, and built a user friendly UI that helped users easily engange with the app."}/>
       </div>
       <h2 data-aos="fade-right" ref={aboutMeRef} className='highlight medium-text-titles'>
         More About Me 

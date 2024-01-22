@@ -1,6 +1,5 @@
 import React from 'react'
 import './cards.css';
-// import blackhole from '../../images/blackhole.jpeg'
 
 export default function Card(props) {
   return (
@@ -10,8 +9,14 @@ export default function Card(props) {
         <div className='card-description'>
             <h2 className="mt-3 mb-2 medium-text">{props.title}</h2>
             <p className='light-text'>{props.description}</p>
+            {props.techArray && props.techArray.length > 0 && (
+            <div className='d-flex gap-3'>
+              {props.techArray.map((item, index) => (
+                <p className='regular-text pill-design' key={index}>{item}</p>
+              ))}
+            </div>
+          )}
         </div>
-        
     </div>
     </div>
     
