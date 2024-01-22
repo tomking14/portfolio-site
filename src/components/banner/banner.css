@@ -29,3 +29,16 @@
   transform: scale(1.2);
   text-decoration: none;
 }
+.cursor {
+  display: inline-block;
+  width: 10px; 
+  height: 1em;
+  border-radius: 4px; 
+  background-color: black; 
+  margin-left: 10px;
+  vertical-align: middle; 
+  animation: blink 1s step-start infinite;
+}
+@keyframes blink {
+  50% { opacity: 0; }
+}

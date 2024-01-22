@@ -40,7 +40,7 @@ function App() {
   useEffect(()=>{
     AOS.init({
       duration: 1000, 
-      once: false, 
+      once: true, 
     });
   },[])
 
@@ -62,17 +62,6 @@ function App() {
       <div ref={bannerRef}>
         <Banner />
       </div>
-
-
-      <h2 data-aos="fade-right" ref={aboutMeRef} className='highlight medium-text-titles'>
-        More About Me 
-        <span className="line" data-aos="custom-animation"></span>
-        <span className="icon-container" data-aos="slide-right"><FontAwesomeIcon icon={faShuttleSpace} /></span>
-    </h2>
-      <div data-aos="fade-up">
-          <AboutMe/>
-      </div>
-
       <h2 data-aos="fade-right" ref={projectsRef} className='highlight medium-text-titles'>
         Projects
         <span className="line" data-aos="custom-animation"></span>
@@ -80,13 +69,21 @@ function App() {
     </h2>
     
       <div data-aos="fade-up">
-          <Card imageAlt={"black hole"} title={"Internship"} image={blackhole} description={"Helped build a design system consisting of accessible, adaptable, user-friendly UI components and full pages for Cricket developers to use throughout the Cricket website using HTML, CSS, Bootstrap, and JavaScript"}/>
+          <Card imageAlt={"black hole"} title={"Internship"} image={blackhole} description={"Helped Cricket developers build a design system consisting of accessible, reusable, adaptable, and user-friendly UI components, as well as full pages to use throughout the Cricket website. This was achieved using HTML, CSS, Bootstrap, and JavaScript"}/>
       </div>
       <div data-aos="fade-up">
-          <Card data-aos="fade-up" imageAlt={"horizon"} title={"Film Site"} image={bottomimage} description={"Worked within a Scrum to build a full stack application mimicking a cinema site to order movie tickets using React and Flask with a focus on the frontend side "}/>
+          <Card data-aos="fade-up" imageAlt={"horizon"} title={"Film Site"} image={bottomimage} description={"Worked within a Scrum to build a full stack application mimicking a cinema site to order movie tickets using React, Flask, and MongoDB with a focus on the frontend side. Built a multi-page site with a full user creation, edit, and admin functionality, purchase and checkout of tickets, and an engaging, intuitive UI and UX. "}/>
       </div>
       <div data-aos="fade-up">
-          <Card data-aos="fade-up" imageAlt={"space"} title={"Ride Share Application"} image={header} description={"Worked with a partner using agile methodology to create an android application letting users create and accept ride requests and offers using Android Studio, and Google Firebase"}/>
+          <Card data-aos="fade-up" imageAlt={"space"} title={"Ride Share Application"} image={header} description={"Worked with a partner using agile methodology to create an android application letting users create and accept ride requests and offers using Android Studio, and Google Firebase."}/>
+      </div>
+      <h2 data-aos="fade-right" ref={aboutMeRef} className='highlight medium-text-titles'>
+        More About Me 
+        <span className="line" data-aos="custom-animation"></span>
+        <span className="icon-container" data-aos="slide-right"><FontAwesomeIcon icon={faShuttleSpace} /></span>
+      </h2>
+      <div data-aos="fade-up">
+          <AboutMe/>
       </div>
       
     </div>
