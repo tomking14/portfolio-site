@@ -18,13 +18,13 @@
     margin-right: 5px;
 }
 .custom-link-bottomB {
-    color: inherit; 
+    color: white; 
     transition: color 0.3s ease;
     display: inline-block;
   }
   
   .custom-link-bottomB:hover, .custom-link-bottomB:focus {
     outline: none;
-    color: white;
+    color: #303841;
     text-decoration: none;
   }
