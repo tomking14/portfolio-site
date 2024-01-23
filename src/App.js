@@ -29,7 +29,7 @@ function App() {
   const [hasScrolled, setHasScrolled] = useState(false);
 
   const intershipArr = ["JavaScript", "CSS" ,"Bootstrap", "HTML", "A11Y"]
-  const filmArr = ["React","Flask","MongoDB","Axios"]
+  const filmArr = ["React","Flask","Bootstrap","MongoDB","Axios"]
   const rideShareArr = ["Java","Google Firebase", "Android Studio"]
 
     useEffect(() => {

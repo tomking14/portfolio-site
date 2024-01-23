@@ -11,12 +11,12 @@ button {
 }
 
 .navbar-link {
-    color: inherit; 
+    color: black; 
     text-decoration: none; 
     transition: color 0.3s ease;
 }
 .navbar-link-resume{
-    color: inherit; 
+    color: black; 
     text-decoration: none; 
 }
 .resume-button {
