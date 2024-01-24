@@ -15,7 +15,7 @@ export default function InfoCard(props) {
           </div>
             <p className='light-text'><a tabIndex="-1" href={props.cardLink} target="_blank" rel="noopener noreferrer" className='card-container-action text-black text-decoration-none'>{props.description}</a></p>
             {props.techArray && props.techArray.length > 0 && (
-            <div className='d-flex gap-3'>
+            <div className='d-flex flex-wrap gap-3'>
               {props.techArray.map((item, index) => (
                 <p className='regular-text pill-design' key={index}>{item}</p>
               ))}
