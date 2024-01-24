@@ -11,10 +11,10 @@ import React, { useRef,useState,useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-import blackhole from './images/blackhole.jpeg'
+import blackhole from './images/blackhole.png'
 import bottomimage from './images/bottom.png'
 import header from './images/headerimage.png'
-import spaceships from './images/spaceships.jpeg'
+import spaceships from './images/spaceships.png'
 import spacebird from './images/spacebird.png'
 import { faShuttleSpace } from '@fortawesome/free-solid-svg-icons'
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
