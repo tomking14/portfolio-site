@@ -24,6 +24,7 @@
     outline: none;
 }
 
+
 .image-size {
     width: 85px;
     height: 85px; 
@@ -31,6 +32,7 @@
     object-fit: cover;
     margin-right: 20px;
     border: 2px solid black;
+    transition: transform 0.3s ease;
 }
 .pill-design{
 
