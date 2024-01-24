@@ -1,4 +1,4 @@
-All credit for the images are provided from Kurzgesagt – In a Nutshell YouTube channel
+# All credit for the images are provided from Kurzgesagt – In a Nutshell YouTube channel
 
 # Getting Started with Create React App
 
