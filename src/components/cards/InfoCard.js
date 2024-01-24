@@ -3,7 +3,7 @@ import './cards.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
-export default function Card(props) {
+export default function InfoCard(props) {
   return (
     <div tabIndex="0" className='card-container mb-5 d-flex'>
       <img src={props.image} alt= {props.imageAlt} className='image-size mt-3'/>
