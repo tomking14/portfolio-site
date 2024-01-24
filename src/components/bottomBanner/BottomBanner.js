@@ -22,7 +22,7 @@ export default function BottomBanner(props) {
             <a href="mailto:tomykastor@gmail.com" className="custom-link-bottomB">
                 <FontAwesomeIcon icon={faEnvelope} size="2x" />
             </a>
-            <a href="https://www.instagram.com/tomykastor/" target="_blank" rel="noopener noreferrer" className='custom-link-bottomB'>
+            <a href="https://www.instagram.com/whatomate/" target="_blank" rel="noopener noreferrer" className='custom-link-bottomB'>
                 <FontAwesomeIcon icon={faSquareInstagram} size="2x"/>
             </a>
         </div>
