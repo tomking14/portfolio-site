@@ -27,13 +27,13 @@ export default function Banner() {
         <h1 data-aos="zoom-in" className='title mb-0 large-text'>Tom Kastoryano<span className='cursor'></span></h1>
         <div className="row">
         <div data-aos="zoom-in" data-aos-delay="350" className="col-10 col-sm-9">
-            <h3 class="mb-4 regular-text">
+            <h3 className="mb-4 regular-text">
                 A frontend developer that wants to make the internet more 
-                 <strong class="highlight light-text-italic"> pretty</strong> and 
-                 <strong class="highlight light-text-italic"> accessible</strong>
+                 <strong className="highlight light-text-italic"> pretty</strong> and 
+                 <strong className="highlight light-text-italic"> accessible</strong>
             </h3>
         </div>
-        <div className='d-flex gap-4 justify-content-center justify-content-md-start'>
+        <div className='d-flex gap-4 banner-items justify-content-center justify-content-md-start'>
         <div data-aos="fade-up" data-aos-delay="600">
             <a href="https://www.linkedin.com/in/tom-kastoryano-094699234/" aria-label='Open my LinkedIn' target="_blank" rel="noopener noreferrer" className='custom-link'>
                 <FontAwesomeIcon icon={faLinkedin} size="3x" />
