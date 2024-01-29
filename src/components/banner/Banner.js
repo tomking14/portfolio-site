@@ -27,10 +27,10 @@ export default function Banner() {
         <h1 data-aos="zoom-in" className='title mb-0 large-text'>Tom Kastoryano<span className='cursor'></span></h1>
         <div className="row">
         <div data-aos="zoom-in" data-aos-delay="350" className="col-10 col-sm-9">
-            <h3 className="mb-4 regular-text">
-                A frontend developer that wants to make the internet more 
-                 <strong className="highlight light-text-italic"> pretty</strong> and 
-                 <strong className="highlight light-text-italic"> accessible</strong>
+            <h3 className="mb-4 regular-text banner-text">
+                  A Frontend Developer Who Wants to Make the Internet More 
+                 <strong className="highlight light-text-italic"> Pretty</strong> and 
+                 <strong className="highlight light-text-italic"> Accessible</strong>
             </h3>
         </div>
         <div className='d-flex gap-4 banner-items justify-content-center justify-content-md-start'>
