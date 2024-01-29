@@ -13,7 +13,7 @@ export default function InfoCard(props) {
             <h2 className="medium-text mb-2">{props.title}</h2>
             <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>
           </div>
-            <p className='light-text'><a tabIndex="-1" href={props.cardLink} target="_blank" rel="noopener noreferrer" className='card-container-action text-black text-decoration-none'>{props.description}</a></p>
+            <p className='light-text'><a tabIndex="-1" href={props.cardLink} aria-label='Card description' target="_blank" rel="noopener noreferrer" className='card-container-action text-black text-decoration-none'>{props.description}</a></p>
             {props.techArray && props.techArray.length > 0 && (
             <div className='d-flex flex-wrap gap-3'>
               {props.techArray.map((item, index) => (
