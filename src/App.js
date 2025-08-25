@@ -16,6 +16,7 @@ import bottomimage from './images/bottom.png'
 import header from './images/headerimage.png'
 import spaceships from './images/spaceships.png'
 import spacebird from './images/spacebird.png'
+import sunrise from './images/sunrise.png'
 import { faShuttleSpace } from '@fortawesome/free-solid-svg-icons'
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 
@@ -77,7 +78,7 @@ function App() {
         <span className="icon-container" data-aos="slide-right"><FontAwesomeIcon icon={faShuttleSpace} /></span>
     </h2>
     <div data-aos="fade-up">
-          <InfoCard imageAlt={"black hole"} title={"Quality Assurance Engineer"} cardLink={"https://www.amdocs.com/news-press/att-selects-amdocs-support-its-business-support-systems-evolution-make-life-easier"} image={spaceships} techArray ={QAArr} description={"Designed and executed comprehensive test cases for key business processes, including billing processes, environment testing, and extensive customer data validation to ensure consistency and stability with the delivery of new features. Collaborated with cross-functional teams to achieve solutions, utilizing scrum and agile methodology."}/>
+          <InfoCard imageAlt={"spaceships"} title={"Quality Assurance Engineer"} cardLink={"https://www.amdocs.com/news-press/att-selects-amdocs-support-its-business-support-systems-evolution-make-life-easier"} image={spaceships} techArray ={QAArr} description={"Designed and executed comprehensive test cases for key business processes, including billing processes, environment testing, and extensive customer data validation to ensure consistency and stability with the delivery of new features. Collaborated with cross-functional teams to achieve solutions, utilizing scrum and agile methodology."}/>
       </div>
       <div data-aos="fade-up">
           <InfoCard imageAlt={"black hole"} title={"Amdocs Internship"} cardLink={"https://www.amdocs.com/news-press/att-selects-amdocs-support-its-business-support-systems-evolution-make-life-easier"} image={blackhole} techArray ={intershipArr} description={"Contributed to Cricket's development of a design system, a framework of standardized UI components and page templates. This system, composed of accessible, adaptable, and user-friendly elements, streamlines and simplifies development for other Cricket developers, and enhances user experience. The development of the components also prioritized A11Y accessibility guidelines for universal usability."}/>
@@ -89,7 +90,7 @@ function App() {
           <InfoCard imageAlt={"space"} title={"Ride Share Application"} cardLink={"https://github.com/tomking14/RideShareApplication"} techArray ={rideShareArr} image={header} description={"Partnered in an Agile-driven project to create an Android app that allows users to create, edit, and manage ride requests and offers. We leveraged Android Studio and Google Firebase for efficient real-time data handling, and built a user friendly UI that helped users easily engange with the app."}/>
       </div>
       <div data-aos="fade-up">
-          <InfoCard imageAlt={"spaceships"} title={"Presidential Service Awards"} cardLink={"https://presidentialserviceawards.gov"} image={spaceships} description={"Over 2018 and 2019, I completed more than 250 hours of community service, earning the gold level Presidential Service Award in both years—the highest award possible. This service involved weekly guidance for children, engaging them in various activities. I taught them about current news,  world conflicts and history, but also organized fun games to play with them."}/>
+          <InfoCard imageAlt={"sunrise"} title={"Presidential Service Awards"} cardLink={"https://presidentialserviceawards.gov"} image={sunrise} description={"Over 2018 and 2019, I completed more than 250 hours of community service, earning the gold level Presidential Service Award in both years—the highest award possible. This service involved weekly guidance for children, engaging them in various activities. I taught them about current news,  world conflicts and history, but also organized fun games to play with them."}/>
       </div>
       <div data-aos="fade-up">
           <InfoCard imageAlt={"space bird"} title={"Technology Student Association"} cardLink={"https://www.gatsa.org"} image={spacebird} description={"Competed in the 2019 TSA annual competition in the 3D animation section, securing third place in the state of Georgia by collaboratively creating a 3D animation during a hackathon, utilizing Maya Autodesk to develop skills in lighting, rendering, modeling, and animation."}/>
