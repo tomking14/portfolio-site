@@ -28,6 +28,7 @@ function App() {
   const aboutMeRef = useRef(null);
   const [hasScrolled, setHasScrolled] = useState(false);
 
+  const QAArr = ["SQL", "Linux" ,"DBeaver", "Postman", "Github"]
   const intershipArr = ["JavaScript", "CSS" ,"Bootstrap", "HTML", "A11Y"]
   const filmArr = ["React","Flask","Bootstrap","MongoDB","Axios"]
   const rideShareArr = ["Java","Google Firebase", "Android Studio"]
@@ -75,7 +76,9 @@ function App() {
         <span className="line" data-aos="custom-animation"></span>
         <span className="icon-container" data-aos="slide-right"><FontAwesomeIcon icon={faShuttleSpace} /></span>
     </h2>
-    
+    <div data-aos="fade-up">
+          <InfoCard imageAlt={"black hole"} title={"Quality Assurance Engineer"} cardLink={"https://www.amdocs.com/news-press/att-selects-amdocs-support-its-business-support-systems-evolution-make-life-easier"} image={spaceships} techArray ={QAArr} description={"Designed and executed comprehensive test cases for key business processes, including billing processes, environment testing, and extensive customer data validation to ensure consistency and stability with the delivery of new features. Collaborated with cross-functional teams to achieve solutions, utilizing scrum and agile methodology."}/>
+      </div>
       <div data-aos="fade-up">
           <InfoCard imageAlt={"black hole"} title={"Amdocs Internship"} cardLink={"https://www.amdocs.com/news-press/att-selects-amdocs-support-its-business-support-systems-evolution-make-life-easier"} image={blackhole} techArray ={intershipArr} description={"Contributed to Cricket's development of a design system, a framework of standardized UI components and page templates. This system, composed of accessible, adaptable, and user-friendly elements, streamlines and simplifies development for other Cricket developers, and enhances user experience. The development of the components also prioritized A11Y accessibility guidelines for universal usability."}/>
       </div>
