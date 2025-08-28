@@ -35,25 +35,25 @@ export default function Banner() {
         </div>
         <div className='d-flex gap-4 banner-items justify-content-center justify-content-md-start'>
         <div data-aos="fade-up" data-aos-delay="600">
-            <a href="https://www.linkedin.com/in/tom-kastoryano-094699234/" target="_blank" rel="noopener noreferrer" className='custom-link'>
+            <a href="https://www.linkedin.com/in/tom-kastoryano-094699234/" aria-label='Open my LinkedIn' target="_blank" rel="noopener noreferrer" className='custom-link'>
                 <FontAwesomeIcon icon={faLinkedin} size="3x" />
             </a>
         </div>
 
-        <div data-aos="fade-up" data-aos-delay="750">
-            <a href="https://github.com/tomking14" target="_blank" rel="noopener noreferrer" className='custom-link'>
+        <div data-aos="fade-up" data-aos-delay="700">
+            <a href="https://github.com/tomking14" target="_blank" aria-label='Open my GitHub' rel="noopener noreferrer" className='custom-link'>
                 <FontAwesomeIcon icon={faGithub} size="3x"/>
             </a>
         </div>
 
-        <div data-aos="fade-up" data-aos-delay="900">
-            <a href="mailto:tomykastor@gmail.com" className="custom-link">
+        <div data-aos="fade-up" data-aos-delay="800">
+            <a href="mailto:tomykastor@gmail.com" aria-label='Email me' className="custom-link">
                 <FontAwesomeIcon icon={faEnvelope} size="3x" />
             </a>
         </div>
 
-        <div data-aos="fade-up" data-aos-delay="1050">
-            <a href="https://www.instagram.com/whatomate/" target="_blank" rel="noopener noreferrer" className='custom-link text-decoration-none'>
+        <div data-aos="fade-up" data-aos-delay="900">
+            <a href="https://www.instagram.com/whatomate/" aria-label='Open my Instagram' target="_blank" rel="noopener noreferrer" className='custom-link text-decoration-none'>
                 <FontAwesomeIcon icon={faSquareInstagram} size="3x"/>
             </a>
           </div>
